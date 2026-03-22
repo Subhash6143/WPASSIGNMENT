@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elearning>
+
+    <!-- Home Section -->
+    <home>
+        <title>SkillUp Learning Platform</title>
+        <description>
+            Welcome to the E-Learning Platform, a place where students can develop new skills and expand their knowledge through high-quality online courses.
+            Our platform provides a variety of learning programs designed to help learners understand important concepts in technology and programming.
+        </description>
+        <video src="images/introductionvideo.mp4" />
+    </home>
+
+    <!-- Courses Section -->
+    <courses>
+        
+        <course>
+            <name>Web Development</name>
+            <platform>freeCodeCamp</platform>
+            <instructor>Quincy Larson</instructor>
+            <price>Free</price>
+            <link>https://www.freecodecamp.org</link>
+        </course>
+
+        <course>
+            <name>Python Programming</name>
+            <platform>Coursera</platform>
+            <instructor>Dr. Charles Severance</instructor>
+            <price>Free</price>
+            <link>https://www.coursera.org</link>
+        </course>
+
+        <course>
+            <name>Chemical Engineering and Thermodynamics</name>
+            <platform>NPTEL</platform>
+            <instructor>Prof. Sasidhar Gumma</instructor>
+            <price>Free</price>
+            <link>http://onlinecourses.nptel.ac.in/noc26_ch38/preview</link>
+        </course>
+
+        <course>
+            <name>Complete AI Engineer Bootcamp</name>
+            <platform>Udemy</platform>
+            <instructor>365 Careers</instructor>
+            <price>569</price>
+            <link>https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp/</link>
+        </course>
+
+    </courses>
+
+    <!-- Calendar Section -->
+    <calendar>
+        <event>
+            <course>Web Development</course>
+            <startDate>June 10</startDate>
+        </event>
+        <event>
+            <course>Python Programming</course>
+            <startDate>June 15</startDate>
+        </event>
+        <event>
+            <course>Java Programming</course>
+            <startDate>June 20</startDate>
+        </event>
+        <event>
+            <course>Data Structures</course>
+            <startDate>June 25</startDate>
+        </event>
+    </calendar>
+
+    <!-- About Section -->
+    <about>
+        <mission>
+            SkillUp Learning Platform is designed to provide students with high-quality online education.
+        </mission>
+        <vision>
+            We believe that education should be accessible to everyone and help learners grow their careers.
+        </vision>
+    </about>
+
+</elearning>
